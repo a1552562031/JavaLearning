@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b64b274-1e62-4004-8510-8ecd5b7ca238" name="变更" comment="生产者消费者">
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Utils/RabbitMqUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Customer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Customer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Provider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/producerConsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/producerConsumer/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/producerConsumer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/producerConsumer/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Task01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work01.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work02.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/mq2/a.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +56,9 @@
     </option>
   </component>
   <component name="ProjectId" id="29TGSOefVuzKJwZ2pLxBzCmXNtK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,7 +70,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/RabbitMQ" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -72,14 +80,17 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.zjh.javabasis.clone.shallowCopy" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zjh.java.RoutingDirect" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Task01">
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.producerConsumer.Consumer" />
+  <component name="RunManager" selected="Application.Provider">
+    <configuration name="Costumer1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjh.java.RoutingTopic.Costumer1" />
       <module name="RabbitMQ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.producerConsumer.*" />
+          <option name="PATTERN" value="com.zjh.java.RoutingTopic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.producerConsumer.Producer" />
+    <configuration name="Costumer2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjh.java.RoutingTopic.Costumer2" />
       <module name="RabbitMQ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.producerConsumer.*" />
+          <option name="PATTERN" value="com.zjh.java.RoutingTopic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.WorkQuene.Task01" />
+    <configuration name="Costumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjh.java.RoutingDirect.Costumer2" />
       <module name="RabbitMQ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.WorkQuene.*" />
+          <option name="PATTERN" value="com.zjh.java.RoutingDirect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Work01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.WorkQuene.Work01" />
+    <configuration name="Provider (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjh.java.RoutingDirect.Provider" />
       <module name="RabbitMQ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.WorkQuene.*" />
+          <option name="PATTERN" value="com.zjh.java.RoutingDirect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Work02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.WorkQuene.Work02" />
+    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjh.java.RoutingTopic.Provider" />
       <module name="RabbitMQ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.WorkQuene.*" />
+          <option name="PATTERN" value="com.zjh.java.RoutingTopic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task01" />
-        <item itemvalue="Application.Work02" />
-        <item itemvalue="Application.Work01" />
-        <item itemvalue="Application.Consumer" />
-        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.Provider" />
+        <item itemvalue="Application.Costumer2 (1)" />
+        <item itemvalue="Application.Costumer1 (1)" />
+        <item itemvalue="Application.Provider (1)" />
+        <item itemvalue="Application.Costumer2" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +185,8 @@
       <workItem from="1653296459132" duration="918000" />
       <workItem from="1653297667562" duration="2951000" />
       <workItem from="1653442513661" duration="8870000" />
+      <workItem from="1653526816880" duration="3471000" />
+      <workItem from="1653549004922" duration="4304000" />
     </task>
     <task id="LOCAL-00001" summary="生产者消费者">
       <created>1653300013488</created>

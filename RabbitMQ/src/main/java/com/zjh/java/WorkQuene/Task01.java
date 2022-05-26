@@ -6,10 +6,6 @@ import com.rabbitmq.client.MessageProperties;
 import com.zjh.java.Utils.RabbitMqUtils;
 
 
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.concurrent.TimeoutException;
-
 public class Task01 {
     public static final String QUEUE_NAME = "work";
     public static void main(String[] args) throws Exception{

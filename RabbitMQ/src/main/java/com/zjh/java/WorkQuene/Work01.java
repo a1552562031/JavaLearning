@@ -13,15 +13,17 @@ public class Work01 {
         Channel channel = connection.createChannel();
         channel.basicQos(1);//每次只能消费一条消息，避免中途宕机，后续消息丢失
         channel.queueDeclare(QUEUE_NAME,true,false,false,null);
-        channel.basicConsume(QUEUE_NAME,true,new DefaultConsumer(channel){
+        channel.basicConsume(QUEUE_NAME,false,new DefaultConsumer(channel){
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
-                System.out.println("消费者-1  " + new String(body));
+
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
+                System.out.println("消费者-1  " + new String(body));
+                channel.basicAck(envelope.getDeliveryTag(),false);
             }
         });
     }
