@@ -1,14 +1,9 @@
-package com.zjh.java.producerConsumer;
+package com.zjh.java.ProducerConsumer;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.MessageProperties;
-
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.TreeMap;
-import java.util.concurrent.TimeoutException;
 
 //生产者
 public class Producer {

@@ -4,21 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b64b274-1e62-4004-8510-8ecd5b7ca238" name="变更" comment="生产者消费者">
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Customer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Customer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Provider.java" afterDir="false" />
+    <list default="true" id="4b64b274-1e62-4004-8510-8ecd5b7ca238" name="变更" comment="routing -- direct and topic">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/Route/RouteCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/Topic/TopicCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/direct/HelloCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/fanout/WorkCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/work/WorkQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/SpringBoot/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Task01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work01.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work02.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/mq2/a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Customer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Customer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Customer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Customer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/producerConsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/producerConsumer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjh/javabasis/clone/shallowCopy/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjh/javabasis/clone/shallowCopy/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjh/javabasis/clone/shallowCopy/testClone.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +73,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/RabbitMQ" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.m2/repository/org/springframework/amqp/spring-rabbit/2.2.7.RELEASE/spring-rabbit-2.2.7.RELEASE.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -84,92 +97,108 @@
       <recent name="com.zjh.java.RoutingDirect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Provider">
-    <configuration name="Costumer1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.RoutingTopic.Costumer1" />
-      <module name="RabbitMQ" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DemoApplicationTests.Topic">
+    <configuration name="DemoApplicationTests.Fanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RabbitMQ-springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.RoutingTopic.*" />
+          <option name="PATTERN" value="com.example.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="Fanout" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Costumer2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.RoutingTopic.Costumer2" />
-      <module name="RabbitMQ" />
+    <configuration name="DemoApplicationTests.Route" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RabbitMQ-springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.RoutingTopic.*" />
+          <option name="PATTERN" value="com.example.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="Route" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Costumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.RoutingDirect.Costumer2" />
-      <module name="RabbitMQ" />
+    <configuration name="DemoApplicationTests.Topic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RabbitMQ-springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.RoutingDirect.*" />
+          <option name="PATTERN" value="com.example.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="Topic" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Provider (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.RoutingDirect.Provider" />
-      <module name="RabbitMQ" />
+    <configuration name="DemoApplicationTests.teatWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RabbitMQ-springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.RoutingDirect.*" />
+          <option name="PATTERN" value="com.example.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="teatWork" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.RoutingTopic.Provider" />
-      <module name="RabbitMQ" />
+    <configuration name="DemoApplicationTests.testHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RabbitMQ-springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.RoutingTopic.*" />
+          <option name="PATTERN" value="com.example.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="testHello" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="RabbitMQ-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Provider" />
-        <item itemvalue="Application.Costumer2 (1)" />
-        <item itemvalue="Application.Costumer1 (1)" />
-        <item itemvalue="Application.Provider (1)" />
-        <item itemvalue="Application.Costumer2" />
+        <item itemvalue="JUnit.DemoApplicationTests.Topic" />
+        <item itemvalue="JUnit.DemoApplicationTests.Route" />
+        <item itemvalue="JUnit.DemoApplicationTests.Fanout" />
+        <item itemvalue="JUnit.DemoApplicationTests.testHello" />
+        <item itemvalue="JUnit.DemoApplicationTests.teatWork" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +215,8 @@
       <workItem from="1653297667562" duration="2951000" />
       <workItem from="1653442513661" duration="8870000" />
       <workItem from="1653526816880" duration="3471000" />
-      <workItem from="1653549004922" duration="4304000" />
+      <workItem from="1653549004922" duration="4605000" />
+      <workItem from="1653619853523" duration="8096000" />
     </task>
     <task id="LOCAL-00001" summary="生产者消费者">
       <created>1653300013488</created>
@@ -195,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653300013488</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="routing -- direct and topic">
+      <created>1653559098253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653559098253</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +251,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="生产者消费者" />
-    <option name="LAST_COMMIT_MESSAGE" value="生产者消费者" />
+    <MESSAGE value="routing -- direct and topic" />
+    <option name="LAST_COMMIT_MESSAGE" value="routing -- direct and topic" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

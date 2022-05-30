@@ -8,7 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="RabbitMQ" />
+        <module name="RabbitMQ-springboot" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="RabbitMQ-SrpingBoot" target="1.8" />
+      <module name="SpringBoot-RabbitMQ" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RabbitMQ-SrpingBoot" options="-parameters" />
+      <module name="RabbitMQ-springboot" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -1,9 +1,6 @@
-package com.zjh.java.producerConsumer;
+package com.zjh.java.ProducerConsumer;
 
 import com.rabbitmq.client.*;
-
-import java.io.IOException;
-import java.util.concurrent.TimeoutException;
 
 public class Consumer {
     public static final String QUEUE_NAME = "hello2";

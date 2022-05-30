@@ -1,4 +1,4 @@
-package com.zjh.java.fanout;
+package com.zjh.java.Fanout;
 
 import com.rabbitmq.client.*;
 import com.zjh.java.Utils.RabbitMqUtils;
