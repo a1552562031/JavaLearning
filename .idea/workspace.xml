@@ -4,64 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b64b274-1e62-4004-8510-8ecd5b7ca238" name="变更" comment="routing -- direct and topic">
-      <change afterPath="$PROJECT_DIR$/rate_limiter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/RateLimiterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/annotation/RateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/aspect/RateLimiterAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/enums/LimitType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/exception/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/exception/RateLimiterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/resources/lua/limit.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/test/java/com/zjh/rate_limiter/RateLimiterApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/zjh/java/captchaTest/CaptchaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/zjh/java/captchaTest/CaptchaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/zjh/java/captchaTest/KaptchaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/resources/city/ip2region.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4b64b274-1e62-4004-8510-8ecd5b7ca238" name="变更" comment="限流注解">
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/util/IpUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/Route/RouteCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/Route/RouteCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/Topic/TopicCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/Topic/TopicCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/direct/HelloCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/direct/HelloCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/fanout/WorkCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/fanout/WorkCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/work/WorkQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/work/WorkQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Customer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/Fanout/Customer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Customer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/Fanout/Customer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/Fanout/Provider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Provider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Provider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/SpringBoot/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/SpringBoot/DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Utils/RabbitMqUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/Utils/RabbitMqUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/WorkQuene/Task01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work01.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work02.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/aspect/RateLimiterAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/aspect/RateLimiterAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +225,7 @@
       <workItem from="1653619853523" duration="8096000" />
       <workItem from="1657172094360" duration="1914000" />
       <workItem from="1658198060356" duration="2462000" />
-      <workItem from="1658455179217" duration="3515000" />
+      <workItem from="1658455179217" duration="4349000" />
     </task>
     <task id="LOCAL-00001" summary="生产者消费者">
       <created>1653300013488</created>
@@ -295,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653559098253</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="限流注解">
+      <created>1658461783549</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658461783549</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +269,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="生产者消费者" />
     <MESSAGE value="routing -- direct and topic" />
-    <option name="LAST_COMMIT_MESSAGE" value="routing -- direct and topic" />
+    <MESSAGE value="限流注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="限流注解" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

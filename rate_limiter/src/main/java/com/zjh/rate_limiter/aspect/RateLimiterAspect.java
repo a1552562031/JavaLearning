@@ -1,17 +1,23 @@
 package com.zjh.rate_limiter.aspect;
 
 import com.zjh.rate_limiter.annotation.RateLimiter;
+import com.zjh.rate_limiter.enums.LimitType;
 import com.zjh.rate_limiter.exception.RateLimiterException;
+import com.zjh.rate_limiter.util.IpUtils;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.script.RedisScript;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
+import java.lang.reflect.Method;
 import java.util.Collections;
 
 @Aspect
@@ -44,6 +50,16 @@ public class RateLimiterAspect {
     }
 
     private String getCombineKey(RateLimiter rateLimiter, JoinPoint jp) {
-        return null;
+        StringBuffer key = new StringBuffer(rateLimiter.key());
+        if (rateLimiter.limitType() == LimitType.IP) {
+            key.append(IpUtils.getIpAddr(((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest()))
+                    .append("-");
+        }
+        MethodSignature signature = (MethodSignature) jp.getSignature();
+        Method method = signature.getMethod();
+        key.append(method.getDeclaringClass().getName())
+                .append("-")
+                .append(method.getName());
+        return key.toString();
     }
 }
