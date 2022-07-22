@@ -5,29 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b64b274-1e62-4004-8510-8ecd5b7ca238" name="变更" comment="routing -- direct and topic">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/Route/RouteCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/Topic/TopicCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/direct/HelloCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/fanout/WorkCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/work/WorkQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ-springboot/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/SpringBoot/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/RateLimiterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/annotation/RateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/aspect/RateLimiterAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/enums/LimitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/exception/RateLimiterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/resources/lua/limit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limiter/src/test/java/com/zjh/rate_limiter/RateLimiterApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/zjh/java/captchaTest/CaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/zjh/java/captchaTest/CaptchaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/zjh/java/captchaTest/KaptchaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/main/resources/city/ip2region.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Customer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Customer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Customer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Customer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/fanout/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Provider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/producerConsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/producerConsumer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/Route/RouteCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/Route/RouteCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/Topic/TopicCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/Topic/TopicCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/direct/HelloCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/direct/HelloCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/fanout/WorkCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/fanout/WorkCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/java/com/example/demo/work/WorkQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/java/com/example/demo/work/WorkQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ-springboot/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ-springboot/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Customer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/Fanout/Customer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Customer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/Fanout/Customer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Fanout/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/Fanout/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/ProducerConsumer/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Costumer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingDirect/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Costumer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/RoutingTopic/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/SpringBoot/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/SpringBoot/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/Utils/RabbitMqUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/Utils/RabbitMqUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/WorkQuene/Task01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work01.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work02.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/zjh/java/WorkQuene/Work02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjh/javabasis/clone/shallowCopy/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjh/javabasis/clone/shallowCopy/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjh/javabasis/clone/shallowCopy/testClone.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +71,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Kotlin Class" />
         <option value="Class" />
       </list>
@@ -59,8 +95,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\Maven\apache-maven-3.8.4" />
-        <option name="userSettingsFile" value="E:\Java\Maven\apache-maven-3.8.4\conf\settings.xml" />
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.8.6/libexec" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -72,23 +107,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.m2/repository/org/springframework/amqp/spring-rabbit/2.2.7.RELEASE/spring-rabbit-2.2.7.RELEASE.jar" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/xxs/Desktop/Projects/IdeaProjects/JavaLearning/test/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "3228a40bcb748bdd8943c5ecbee706af",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zjh.rate_limiter.exception" />
+      <recent name="com.zjh.rate_limiter.controller.annotation" />
+      <recent name="com.zjh.rate_limiter.enums" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/src/main/resources" />
       <recent name="E:\Java\IdeaProjects\JavaBasis\RabbitMQ" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/src/main/resources/city" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.zjh.javabasis.clone.shallowCopy" />
@@ -104,7 +153,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DemoApplicationTests.Topic">
+  <component name="RunManager" selected="Spring Boot.RateLimiterApplication">
     <configuration name="DemoApplicationTests.Fanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RabbitMQ-springboot" />
       <extension name="coverage">
@@ -153,22 +202,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplicationTests.teatWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RabbitMQ-springboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
-      <option name="METHOD_NAME" value="teatWork" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DemoApplicationTests.testHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RabbitMQ-springboot" />
       <extension name="coverage">
@@ -192,13 +225,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KaptchaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zjh.java.captchaTest.KaptchaApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zjh.java.captchaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RateLimiterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rate_limiter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zjh.rate_limiter.RateLimiterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.KaptchaApplication" />
         <item itemvalue="JUnit.DemoApplicationTests.Topic" />
         <item itemvalue="JUnit.DemoApplicationTests.Route" />
         <item itemvalue="JUnit.DemoApplicationTests.Fanout" />
         <item itemvalue="JUnit.DemoApplicationTests.testHello" />
-        <item itemvalue="JUnit.DemoApplicationTests.teatWork" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +277,9 @@
       <workItem from="1653526816880" duration="3471000" />
       <workItem from="1653549004922" duration="4605000" />
       <workItem from="1653619853523" duration="8096000" />
+      <workItem from="1657172094360" duration="1914000" />
+      <workItem from="1658198060356" duration="2462000" />
+      <workItem from="1658455179217" duration="3515000" />
     </task>
     <task id="LOCAL-00001" summary="生产者消费者">
       <created>1653300013488</created>
@@ -248,7 +311,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

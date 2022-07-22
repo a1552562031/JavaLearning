@@ -7,7 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RabbitMQ" />
+        <module name="rate_limiter" />
+        <module name="test" />
+        <module name="demo" />
+        <module name="rabbitMQ" />
         <module name="RabbitMQ-springboot" />
       </profile>
     </annotationProcessing>
@@ -20,6 +23,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="RabbitMQ-SrpingBoot" options="-parameters" />
       <module name="RabbitMQ-springboot" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="test" options="-parameters" />
     </option>
   </component>
 </project>
