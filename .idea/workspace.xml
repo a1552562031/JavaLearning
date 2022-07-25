@@ -4,10 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b64b274-1e62-4004-8510-8ecd5b7ca238" name="变更" comment="限流注解">
-      <change afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/util/IpUtils.java" afterDir="false" />
+    <list default="true" id="4b64b274-1e62-4004-8510-8ecd5b7ca238" name="变更" comment="变更">
+      <change afterPath="$PROJECT_DIR$/repeat_submit/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/src/main/java/com/zjh/repeat_submit/RepeatSubmitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/src/main/java/com/zjh/repeat_submit/annotation/RepeatSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/src/main/java/com/zjh/repeat_submit/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/src/main/java/com/zjh/repeat_submit/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/src/main/java/com/zjh/repeat_submit/fittle/RepeatableRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/src/main/java/com/zjh/repeat_submit/interceptor/RepeatSubmitInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/src/main/java/com/zjh/repeat_submit/redis/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/src/main/java/com/zjh/repeat_submit/request/RepeatableReadRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_submit/src/test/java/com/zjh/repeat_submit/RepeatSubmitApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/aspect/RateLimiterAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/rate_limiter/src/main/java/com/zjh/rate_limiter/aspect/RateLimiterAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +87,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "3228a40bcb748bdd8943c5ecbee706af",
+    "spring.configuration.checksum": "baf1d6a3d34fbb99f560331c955bcf68",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,7 +118,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RateLimiterApplication">
+  <component name="RunManager" selected="Spring Boot.RepeatSubmitApplication">
     <configuration name="DemoApplicationTests.Fanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RabbitMQ-springboot" />
       <extension name="coverage">
@@ -198,6 +217,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepeatSubmitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="repeat_submit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zjh.repeat_submit.RepeatSubmitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.KaptchaApplication" />
@@ -225,7 +251,8 @@
       <workItem from="1653619853523" duration="8096000" />
       <workItem from="1657172094360" duration="1914000" />
       <workItem from="1658198060356" duration="2462000" />
-      <workItem from="1658455179217" duration="4349000" />
+      <workItem from="1658455179217" duration="7293000" />
+      <workItem from="1658711637625" duration="6443000" />
     </task>
     <task id="LOCAL-00001" summary="生产者消费者">
       <created>1653300013488</created>
@@ -248,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658461783549</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="变更">
+      <created>1658471480231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658471480231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +304,8 @@
     <MESSAGE value="生产者消费者" />
     <MESSAGE value="routing -- direct and topic" />
     <MESSAGE value="限流注解" />
-    <option name="LAST_COMMIT_MESSAGE" value="限流注解" />
+    <MESSAGE value="变更" />
+    <option name="LAST_COMMIT_MESSAGE" value="变更" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

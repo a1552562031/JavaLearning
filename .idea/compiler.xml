@@ -11,6 +11,7 @@
         <module name="test" />
         <module name="demo" />
         <module name="rabbitMQ" />
+        <module name="repeat_submit" />
         <module name="RabbitMQ-springboot" />
       </profile>
     </annotationProcessing>

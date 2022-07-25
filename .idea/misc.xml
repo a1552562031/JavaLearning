@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/RabbitMQ-springboot/pom.xml" />
         <option value="$PROJECT_DIR$/rate_limiter/pom.xml" />
+        <option value="$PROJECT_DIR$/repeat_submit/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
