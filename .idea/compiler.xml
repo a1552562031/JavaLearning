@@ -8,11 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rate_limiter" />
+        <module name="RabbitMQ" />
+        <module name="rabbit-springboot" />
+        <module name="excel-poi" />
         <module name="test" />
-        <module name="demo" />
-        <module name="rabbitMQ" />
         <module name="repeat_submit" />
         <module name="RabbitMQ-springboot" />
+        <module name="demo" />
+        <module name="rabbitMQ" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +28,7 @@
       <module name="RabbitMQ-SrpingBoot" options="-parameters" />
       <module name="RabbitMQ-springboot" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="rabbit-springboot" options="-parameters" />
       <module name="test" options="-parameters" />
     </option>
   </component>

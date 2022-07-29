@@ -12,6 +12,8 @@
         <module>RabbitMQ</module>
         <module>RabbitMQ-springboot</module>
         <module>test</module>
+        <module>excel-poi</module>
+        <module>excel-poi</module>
     </modules>
 
     <properties>
