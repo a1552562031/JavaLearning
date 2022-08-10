@@ -16,6 +16,7 @@
         <module name="RabbitMQ-springboot" />
         <module name="demo" />
         <module name="rabbitMQ" />
+        <module name="redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

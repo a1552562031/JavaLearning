@@ -4,26 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b64b274-1e62-4004-8510-8ecd5b7ca238" name="变更" comment="生产者消费者">
-      <change afterPath="$PROJECT_DIR$/excel-poi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/easyTest.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/java/com/zjh/java/easyexcel/dao/DemoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/java/com/zjh/java/easyexcel/easyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/java/com/zjh/java/easyexcel/listener/DemoDataListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/java/com/zjh/java/model/DemoData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/java/com/zjh/java/poi/ExcelReadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/java/com/zjh/java/poi/ExcelWriteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/maineasyTest.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/resourcesexcel-poi-test-03.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/resourcesexcel-poi-test-07.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/resourcesexcel-poi-test.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/resourcestestWriteBigData03.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/resourcestestWriteBigData07.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/resourcestestWriteBigData07Super.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-poi/src/main/明细表.xls" afterDir="false" />
+    <list default="true" id="4b64b274-1e62-4004-8510-8ecd5b7ca238" name="变更" comment="poi和easyexcel的基础读写">
+      <change afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/zjh/java/BloomFitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/zjh/java/CallWithJedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/zjh/java/DelayMegQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/zjh/java/DelayMegTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/zjh/java/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/zjh/java/LuaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/zjh/java/RateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/zjh/java/Redis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/zjh/java/RedisMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -36,11 +28,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -102,7 +100,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.easyTest">
+  <component name="RunManager" selected="应用程序.RateLimiter">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -116,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelReadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.poi.ExcelReadTest" />
-      <module name="excel-poi" />
+    <configuration name="BloomFitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjh.java.BloomFitter" />
+      <module name="redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.poi.*" />
+          <option name="PATTERN" value="com.zjh.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelWriteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.poi.ExcelWriteTest" />
-      <module name="excel-poi" />
+    <configuration name="DelayMegTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjh.java.DelayMegTest" />
+      <module name="redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.poi.*" />
+          <option name="PATTERN" value="com.zjh.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Work02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.WorkQuene.Work02" />
-      <module name="RabbitMQ" />
+    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjh.java.LockTest" />
+      <module name="redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.WorkQuene.*" />
+          <option name="PATTERN" value="com.zjh.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="easyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.easyexcel.easyTest" />
-      <module name="excel-poi" />
+    <configuration name="LuaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjh.java.LuaTest" />
+      <module name="redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.easyexcel.*" />
+          <option name="PATTERN" value="com.zjh.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,18 +166,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="easyTest.simpleWrite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="excel-poi" />
+    <configuration name="RateLimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjh.java.RateLimiter" />
+      <module name="redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjh.java.easyexcel.listener.*" />
+          <option name="PATTERN" value="com.zjh.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zjh.java.easyexcel" />
-      <option name="MAIN_CLASS_NAME" value="com.zjh.java.easyexcel.easyTest" />
-      <option name="METHOD_NAME" value="simpleWrite" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,10 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.easyTest" />
-        <item itemvalue="JUnit.easyTest.simpleWrite" />
-        <item itemvalue="应用程序.ExcelReadTest" />
-        <item itemvalue="应用程序.ExcelWriteTest" />
+        <item itemvalue="应用程序.RateLimiter" />
+        <item itemvalue="应用程序.BloomFitter" />
+        <item itemvalue="应用程序.DelayMegTest" />
+        <item itemvalue="应用程序.LuaTest" />
+        <item itemvalue="应用程序.LockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +230,13 @@
       <workItem from="1653297667562" duration="2951000" />
       <workItem from="1653442513661" duration="8870000" />
       <workItem from="1658895849915" duration="78000" />
-      <workItem from="1659062587968" duration="11148000" />
+      <workItem from="1659062587968" duration="12077000" />
+      <workItem from="1659337078385" duration="2585000" />
+      <workItem from="1659404279034" duration="3884000" />
+      <workItem from="1659499563684" duration="3626000" />
+      <workItem from="1659578048721" duration="604000" />
+      <workItem from="1659920737989" duration="1056000" />
+      <workItem from="1660017902219" duration="2918000" />
     </task>
     <task id="LOCAL-00001" summary="生产者消费者">
       <created>1653300013488</created>
@@ -243,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653300013488</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="poi和easyexcel的基础读写">
+      <created>1659081773072</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659081773072</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +272,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="生产者消费者" />
-    <option name="LAST_COMMIT_MESSAGE" value="生产者消费者" />
+    <MESSAGE value="poi和easyexcel的基础读写" />
+    <option name="LAST_COMMIT_MESSAGE" value="poi和easyexcel的基础读写" />
   </component>
 </project>

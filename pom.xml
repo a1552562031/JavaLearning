@@ -14,6 +14,7 @@
         <module>test</module>
         <module>excel-poi</module>
         <module>excel-poi</module>
+        <module>redis</module>
     </modules>
 
     <properties>
